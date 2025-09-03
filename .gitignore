@@ -1,0 +1,62 @@
+# 💾 Cache and Temporary Files
+cache/*
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.mp4
+*.sh
+
+# 🔧 Compiled Binaries and Object Files
+*.o
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+*.obj
+
+# 📄 Logs and Debug Files
+*.log
+*.tmp
+*.swp
+*.swo
+
+
+# 📌 Build and Dependency Directories
+bin/
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# 🏗️ Make and CMake Files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# 🚀 Virtual Environment (Python)
+venv/
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 📝 IDE and Editor Specific Files
+.vscode/
+.idea/
+*.iml
+
+# 🔒 OS-Specific Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🗂️ Past Code and Logs
+past/
+logs/

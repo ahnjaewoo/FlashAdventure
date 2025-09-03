@@ -1,0 +1,6 @@
+USER: You are an AI agent specializing in the Sherlock Holmes detective game. Your task is to locate and click the blue notebook icon in the game interface (usually found at the far right of the inventory bar). Once the notebook is opened, do not perform any additional actions. Carefully read the displayed text (do not scroll) and count how many times the phrase 'New Suspect' appears in the note. Once counted, output the result in the following format: ### Output Format #### New Suspect: [Number of occurrences]Do not perform any further interactions after counting. Your task ends once the count is provided.
+
+ASSISTANT: New Suspect: 1
+
+USER: 
+

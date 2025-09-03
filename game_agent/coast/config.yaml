@@ -1,0 +1,37 @@
+# If even one action succeeds, stop the entire tree traversal and restart from the root task
+RESET_ON_SUCCESS: true
+max_action_count: 1000
+
+# Prompt path
+
+action_prompt_path: "./json/action_prompt.json"
+game_prompt_path: "./json/game_prompt.json"
+
+
+
+# Model settings
+# api_provider: "openai"
+# reasoning_model: "gpt-4o"
+# gui_model: "gpt_operator"  # or gpt_operator / claude_cua / uground
+
+api_provider: "anthropic"
+reasoning_model: "claude-3-7-sonnet-20250219"
+gui_model: "claude_cua"  # or gpt_operator / claude_cua / uground
+
+# # Tree expansion settings
+# width: 3 # Number of subtasks to generate in one step
+# depth: 3 # Total search depth
+
+# Grounding resolution settings (used in UGround, etc.)
+grounding_width: 1366
+grounding_height: 768
+
+# Other options (optional)
+timeout: 30       # API timeout in seconds
+max_steps: 100    # Maximum number of execution steps
+
+
+### Clue_Solver Max Action:
+max_actions_solver: 5
+### Clue_Seeker Max Action:
+max_actions_seeker: 15
