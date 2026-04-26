@@ -60,3 +60,8 @@ desktop.ini
 # 🗂️ Past Code and Logs
 past/
 logs/
+
+# 🔑 Secrets / Env files
+.env
+*.env
+**/.env
